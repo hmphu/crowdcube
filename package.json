@@ -4,6 +4,7 @@
   "private": true,
   "main": "index.js",
   "dependencies": {
+    "axios": "^0.18.0",
     "babel-core": "^6.26.3",
     "babel-jest": "^21.2.0",
     "babel-loader": "^6.4.1",
@@ -16,6 +17,7 @@
     "fetch-mock": "^6.5.2",
     "jest": "^21.2.1",
     "jest-cli": "^21.2.1",
+    "prop-types": "^15.6.2",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
     "react-redux": "^5.1.0",
@@ -40,7 +42,6 @@
     "less": "^2.5.1",
     "less-loader": "^2.2.3",
     "node-libs-browser": "^0.5.2",
-    "prop-types": "^15.6.2",
     "react-addons-test-utils": "^15.6.2",
     "react-prop-types": "^0.4.0",
     "style-loader": "^0.12.4",

@@ -1,10 +1,15 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+
+const propTypes = {
+  width: PropTypes.number,
+};
 
 class NavigationBar extends React.Component {
   render() {
     return (
       <div className='navigation'>
-        <div className='navigationContainer' style={ {width: this.props.width * 0.75, padding: `10px ${this.props.width * 0.09}px`} }>
+        <div className='navigationContainer' style={ { width: this.props.width * 0.75, padding: `10px ${this.props.width * 0.09}px` } }>
           <div className='left'>
             <img src='../../assets/logo.jpg' alt='Crowdcube' className='logo' />
           </div>
@@ -19,4 +24,9 @@ class NavigationBar extends React.Component {
   }
 }
 
-export default NavigationBar;
+NavigationBar.defaultProps = {
+  width: window.innerWidth,
+};
+
+NavigationBar.propTypes = propTypes;
+module.exports = NavigationBar;

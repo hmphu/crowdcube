@@ -2,7 +2,10 @@ import React from 'react';
 
 import { updateDimensions } from '../../utils/updateDimensions';
 
-import NavigationBar from '../NavigationBar/index.jsx';
+import NavigationBar from '../../components/NavigationBar';
+import FilterContainer from '../FilterContainer';
+import InvestmentCardContainer from '../InvestmentCardContainer';
+import Footer from '../../components/Footer';
 
 class AppContainer extends React.Component {
   constructor() {
@@ -13,7 +16,7 @@ class AppContainer extends React.Component {
   }
 
   /**
-   * Adds an event listener
+   * Adds an event listener to the window
   */
   componentDidMount() {
     this.updateDimensions();
@@ -36,10 +39,13 @@ class AppContainer extends React.Component {
   render() {
     return (
       <div className='container'>
-        <NavigationBar width={ this.state.width } />
+        {/* <NavigationBar width={ this.state.width } /> */}
+        <FilterContainer width={ this.state.width } />
+        <InvestmentCardContainer width={ this.state.width } />
+        <Footer width={ this.state.width } />
       </div>
     );
   }
 }
 
-export default AppContainer;
+module.exports = AppContainer;

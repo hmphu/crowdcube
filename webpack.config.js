@@ -9,6 +9,7 @@ const paths = {
 
 const config = [
   {
+    devtool: 'source-map',
     entry: path.join(paths.APP_DIR, 'index.js'),
     plugins: [
       new HtmlWebpackPlugin({
@@ -23,6 +24,7 @@ const config = [
       'react/lib/ExecutionEnvironment': true,
       'react/lib/ReactContext': true,
     },
+    resolve: { extensions: ['.js', '.jsx'] },
     module: {
       rules: [
         {
