@@ -1,0 +1,60 @@
+@orange: #f08f00;
+@greyLine: #e4e4e4;
+@dark: #29383c;
+@green: #64a816;
+@greyText: #747474;
+
+.buttonStyle(@border-color, @background-color, @text-color, @hover-border-color, @hover-background-color, @hover-text-color){
+  appearance: none;
+  outline: none;
+  background-color: @background-color;
+  border: 2px solid @border-color;
+  border-radius: 3;
+  padding: 10;
+  font-size: 16;
+  font-weight: bold;
+  color: @text-color;
+  &:hover {
+    cursor: pointer;
+    color: @hover-text-color;
+		border: 2px solid @hover-border-color;
+		background-color: @hover-background-color;
+  }
+}
+
+.header {
+  color: @dark;
+}
+
+.navigation {
+  width: 100%;
+  border-bottom: 1px solid @greyLine !important;
+}
+
+.navigationContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 180px;
+}
+
+.left {
+  justify-content: flex-start;
+}
+
+.right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.regularButton {
+  .buttonStyle(@dark, #FFFFFF, @dark, @dark, @dark, #FFFFFF);
+}
+
+.greenButton {
+  .buttonStyle(@green, @green, #FFFFFF, @green, #FFFFFF, @green);
+}

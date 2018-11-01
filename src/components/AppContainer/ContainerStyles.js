@@ -1,6 +1,8 @@
-export const ContainerStyles = {
+const ContainerStyles = {
   container: {
     display: 'flex',
-    backgroundColor: '#FFFFFF'
-  }   
-}
+    backgroundColor: '#FFFFFF',
+  },
+};
+
+export default ContainerStyles;

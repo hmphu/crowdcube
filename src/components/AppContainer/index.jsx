@@ -1,24 +1,15 @@
 import React from 'react';
 
-import { ContainerStyles } from './ContainerStyles';
-import { CommonStyles } from '../../constants/CommonStyles';
 import { updateDimensions } from '../../utils/updateDimensions';
 
-
-import NavigationBar from '../NavigationBar';
+import NavigationBar from '../NavigationBar/index.jsx';
 
 class AppContainer extends React.Component {
   constructor() {
     super();
     this.state = {
       width: window.innerWidth,
-      height: window.innerHeight
     };
-  }
-
-  updateDimensions() {
-    let dimensions = updateDimensions(window);
-    this.setState({ width: dimensions.width, height: dimensions.height });
   }
 
   /**
@@ -29,6 +20,7 @@ class AppContainer extends React.Component {
     window.addEventListener('resize', this.updateDimensions.bind(this));
   }
 
+
   /**
    * Removes the event listener
   */
@@ -36,12 +28,17 @@ class AppContainer extends React.Component {
     window.removeEventListener('resize', this.updateDimensions.bind(this));
   }
 
+  updateDimensions() {
+    const dimensions = updateDimensions(window);
+    this.setState({ width: dimensions.width });
+  }
+
   render() {
     return (
-      <div style={ContainerStyles.container}>
-        <NavigationBar width={this.state.width} />
+      <div className='container'>
+        <NavigationBar width={ this.state.width } />
       </div>
-    )
+    );
   }
 }
 

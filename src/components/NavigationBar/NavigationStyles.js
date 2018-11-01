@@ -1,23 +1,23 @@
 import { Variables } from '../../constants/Variables';
 
-export const NavigationStyles = {
+const NavigationStyles = {
   navigation: {
     width: '100%',
-    borderBottom: `1px solid ${Variables.greyLine}`
+    borderBottom: `1px solid ${Variables.greyLine}`,
   },
   container: {
     display: 'flex',
     flexDirection: 'row',
-    justifyContent: 'space-between'
+    justifyContent: 'space-between',
   },
   logo: {
-    width: 180
+    width: 180,
   },
   left: {
-    justifyContent: 'flex-start'
+    justifyContent: 'flex-start',
   },
   right: {
-    justifyContent: 'flex-end'
+    justifyContent: 'flex-end',
   },
   regularButton: {
     appearance: 'none',
@@ -27,9 +27,11 @@ export const NavigationStyles = {
     borderRadius: 3,
     padding: 10,
     fontSize: 16,
-    fontWeight: 'bold'
+    fontWeight: 'bold',
   },
   greenButton: {
 
-  }
-}
+  },
+};
+
+export default NavigationStyles;
