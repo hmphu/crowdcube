@@ -1,5 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styled from 'styled-components';
+
+import ProgressBar from '../ProgressBar';
 
 const propTypes = {
   name: PropTypes.string.isRequired,
@@ -11,6 +14,12 @@ const propTypes = {
   updated: PropTypes.string.isRequired,
 };
 
+const CoverImage = styled.div`
+  &:before {
+    background-image: url(${images => images[1]})
+  }
+`;
+
 class InvestmentCard extends React.Component {
   render() {
     const {
@@ -20,12 +29,17 @@ class InvestmentCard extends React.Component {
       equity,
       expires,
       images,
-      updated
+      updated,
     } = this.props;
-
+    console.log(images[1].src);
     return (
       <div className='card'>
-        <p>{name}</p>
+        <CoverImage images>
+          <div className='card-info'>
+            <p>{name}</p>
+          </div>
+        </CoverImage>
+        <ProgressBar progress={ investment.percentage } />
         <p>{description}</p>
         <p>{equity}</p>
         <p>{expires}</p>

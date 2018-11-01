@@ -40,9 +40,9 @@ class AppContainer extends React.Component {
     return (
       <div className='container'>
         {/* <NavigationBar width={ this.state.width } /> */}
-        <FilterContainer width={ this.state.width } />
+        {/* <FilterContainer width={ this.state.width } /> */}
         <InvestmentCardContainer width={ this.state.width } />
-        <Footer width={ this.state.width } />
+        {/* <Footer width={ this.state.width } /> */}
       </div>
     );
   }
