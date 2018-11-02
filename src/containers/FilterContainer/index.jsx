@@ -1,19 +1,26 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
-const propTypes = {
-  width: PropTypes.number.isRequired,
-};
+library.add(faSearch);
 
 class FilterContainer extends React.Component {
   render() {
     return (
-      <div style={ { width: this.props.width } }>
-        <div className='filter-container' />
+      <div className='filter-container'>
+        <div className='filter-left'>
+          <h2 className='filter-header'>Investment opportunities</h2>
+        </div>
+        <div className='filter-right'>
+          <div className='search-container'>
+            <input type='text' className='search-input' placeholder='Search...' />
+            <FontAwesomeIcon icon='search' className='search-icon' />
+          </div>
+        </div>
       </div>
     );
   }
 }
 
-FilterContainer.propTypes = propTypes;
 module.exports = FilterContainer;

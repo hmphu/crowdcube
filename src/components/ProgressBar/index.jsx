@@ -6,11 +6,11 @@ const propTypes = {
 };
 
 const ProgressBar = ({ progress }) => (
-  <div className='bar'>
-    <div className='progress' style={ { width: `${progress > 100 ? 100 : progress}%` } } />
-    {progress > 100 &&
-      <div>Reached goal!</div>
-    }
+  <div className='bar-container'>
+    <div className='bar'>
+      <div className={ `progress ${progress < 50 ? 'orange' : 'green'}` } style={ { width: `${progress > 100 ? 100 : progress}%` } } />
+    </div>
+    <span className='progress-text'>{`${progress}%`}</span>
   </div>
 );
 
