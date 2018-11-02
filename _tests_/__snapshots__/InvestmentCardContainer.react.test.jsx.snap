@@ -1,0 +1,1190 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Investment card container loads 1`] = `
+<div>
+  <div
+    className="card-container"
+  >
+    <div
+      className="card"
+    >
+      <div
+        className="cover-image"
+      >
+        <div
+          style={
+            Object {
+              "WebkitTransformOrigin": "0 0",
+              "backgroundImage": "linear-gradient(351deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.0) 45%), url(https://files-crowdcube-com.s3.amazonaws.com/opportunity_images/21357/201711/db0b9a86a92bfb3989bf633cda08e299.jpg)",
+              "backgroundSize": "cover",
+              "borderTopLeftRadius": 5,
+              "borderTopRightRadius": 5,
+              "content": "",
+              "height": "100%",
+              "left": 0,
+              "overflow": "visible",
+              "position": "absolute",
+              "top": 0,
+              "transform": "skewY(-2.2deg)",
+              "transformOrigin": "0 0",
+              "width": "100%",
+              "zIndex": -1,
+            }
+          }
+        />
+      </div>
+      <div
+        className="floating"
+      >
+        <img
+          alt="logo"
+          className="logo-circle"
+          src="https://files-crowdcube-com.s3.amazonaws.com/files/pitch_pics/original/201711/4eed9167ed03e1bbcb9fda0bd3be8c06.jpg"
+        />
+        <div
+          className="description-right"
+        >
+          <p
+            className="description-expires"
+          >
+            30 days left
+          </p>
+          <h3
+            className="title"
+          >
+            BurningNight Group
+          </h3>
+        </div>
+      </div>
+      <div
+        className="description-container"
+      >
+        <p
+          className="description-text"
+        >
+          Launched in 2010 and now in six of the UK’s biggest cities, BurningNight Group’s concept bars, Bierkeller Entertainment Complexes, offer distinct, multi-venue experiences. With sales now topping £19.5m & profits of £595k for 2017, they are now focused on the roll-out of their new brand, Sportskeller
+        </p>
+        <div
+          className="bar-container"
+        >
+          <div
+            className="bar"
+          >
+            <div
+              className="progress orange"
+              style={
+                Object {
+                  "width": "22%",
+                }
+              }
+            />
+          </div>
+          <span
+            className="progress-text"
+          >
+            22%
+          </span>
+        </div>
+      </div>
+      <div
+        className="description-investment"
+      >
+        <div
+          className="investment-section"
+        >
+          <h4>
+            Raised
+          </h4>
+          <h3 />
+        </div>
+        <div
+          className="border"
+        />
+        <div
+          className="investment-section"
+        >
+          <h4>
+            Target
+          </h4>
+          <h3 />
+        </div>
+        <div
+          className="border"
+        />
+        <div
+          className="investment-section"
+        >
+          <h4>
+            Equity
+          </h4>
+          <h3>
+            3.61
+          </h3>
+        </div>
+      </div>
+    </div>
+    <div
+      className="card"
+    >
+      <div
+        className="cover-image"
+      >
+        <div
+          style={
+            Object {
+              "WebkitTransformOrigin": "0 0",
+              "backgroundImage": "linear-gradient(351deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.0) 45%), url(https://files-crowdcube-com.s3.amazonaws.com/opportunity_images/21454/201705/ad85367341ef7c4411bf8c7d0e719be7.jpg)",
+              "backgroundSize": "cover",
+              "borderTopLeftRadius": 5,
+              "borderTopRightRadius": 5,
+              "content": "",
+              "height": "100%",
+              "left": 0,
+              "overflow": "visible",
+              "position": "absolute",
+              "top": 0,
+              "transform": "skewY(-2.2deg)",
+              "transformOrigin": "0 0",
+              "width": "100%",
+              "zIndex": -1,
+            }
+          }
+        />
+      </div>
+      <div
+        className="floating"
+      >
+        <img
+          alt="logo"
+          className="logo-circle"
+          src="https://files-crowdcube-com.s3.amazonaws.com/files/pitch_pics/original/201705/470669d166252295005ea1fff45e7454.jpg"
+        />
+        <div
+          className="description-right"
+        >
+          <p
+            className="description-expires"
+          >
+            28 days left
+          </p>
+          <h3
+            className="title"
+          >
+            TeachPitch
+          </h3>
+        </div>
+      </div>
+      <div
+        className="description-container"
+      >
+        <p
+          className="description-text"
+        >
+          Helping schools organise and manage the best of online learning, TeachPitch has gained strong traction with educational organisations. Since its first Crowdcube raise, TeachPitch has grown its user base and expanded in China through B2B partnerships, enabling access to hundreds of more schools.
+        </p>
+        <div
+          className="bar-container"
+        >
+          <div
+            className="bar"
+          >
+            <div
+              className="progress green"
+              style={
+                Object {
+                  "width": "73%",
+                }
+              }
+            />
+          </div>
+          <span
+            className="progress-text"
+          >
+            73%
+          </span>
+        </div>
+      </div>
+      <div
+        className="description-investment"
+      >
+        <div
+          className="investment-section"
+        >
+          <h4>
+            Raised
+          </h4>
+          <h3 />
+        </div>
+        <div
+          className="border"
+        />
+        <div
+          className="investment-section"
+        >
+          <h4>
+            Target
+          </h4>
+          <h3 />
+        </div>
+        <div
+          className="border"
+        />
+        <div
+          className="investment-section"
+        >
+          <h4>
+            Equity
+          </h4>
+          <h3>
+            8.51
+          </h3>
+        </div>
+      </div>
+    </div>
+    <div
+      className="card"
+    >
+      <div
+        className="cover-image"
+      >
+        <div
+          style={
+            Object {
+              "WebkitTransformOrigin": "0 0",
+              "backgroundImage": "linear-gradient(351deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.0) 45%), url(https://files-crowdcube-com.s3.amazonaws.com/opportunity_images/21484/201710/86b67eb36c1c2bfb96f63539db13c119.jpg)",
+              "backgroundSize": "cover",
+              "borderTopLeftRadius": 5,
+              "borderTopRightRadius": 5,
+              "content": "",
+              "height": "100%",
+              "left": 0,
+              "overflow": "visible",
+              "position": "absolute",
+              "top": 0,
+              "transform": "skewY(-2.2deg)",
+              "transformOrigin": "0 0",
+              "width": "100%",
+              "zIndex": -1,
+            }
+          }
+        />
+      </div>
+      <div
+        className="floating"
+      >
+        <img
+          alt="logo"
+          className="logo-circle"
+          src="https://files-crowdcube-com.s3.amazonaws.com/files/pitch_pics/original/201710/6102266c74a445420a1a3be8f3e584c5.jpg"
+        />
+        <div
+          className="description-right"
+        >
+          <p
+            className="description-expires"
+          >
+            27 days left
+          </p>
+          <h3
+            className="title"
+          >
+            Wok&Go
+          </h3>
+        </div>
+      </div>
+      <div
+        className="description-container"
+      >
+        <p
+          className="description-text"
+        >
+          A brand-led fusion food chain which cook a blend of the best of Asian cuisines fresh to order: Wok&Go now have 24 stores across the UK with plans to open another 13 in the next year. On track to sell over 1.1 million boxes of noodles this year, they are now raising to open a flagship store in London
+        </p>
+        <div
+          className="bar-container"
+        >
+          <div
+            className="bar"
+          >
+            <div
+              className="progress orange"
+              style={
+                Object {
+                  "width": "3%",
+                }
+              }
+            />
+          </div>
+          <span
+            className="progress-text"
+          >
+            3%
+          </span>
+        </div>
+      </div>
+      <div
+        className="description-investment"
+      >
+        <div
+          className="investment-section"
+        >
+          <h4>
+            Raised
+          </h4>
+          <h3 />
+        </div>
+        <div
+          className="border"
+        />
+        <div
+          className="investment-section"
+        >
+          <h4>
+            Target
+          </h4>
+          <h3 />
+        </div>
+        <div
+          className="border"
+        />
+        <div
+          className="investment-section"
+        >
+          <h4>
+            Equity
+          </h4>
+          <h3>
+            5.26
+          </h3>
+        </div>
+      </div>
+    </div>
+    <div
+      className="card"
+    >
+      <div
+        className="cover-image"
+      >
+        <div
+          style={
+            Object {
+              "WebkitTransformOrigin": "0 0",
+              "backgroundImage": "linear-gradient(351deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.0) 45%), url(https://files-crowdcube-com.s3.amazonaws.com/opportunity_images/21525/201709/358bab433270249211466abc74508297.jpg)",
+              "backgroundSize": "cover",
+              "borderTopLeftRadius": 5,
+              "borderTopRightRadius": 5,
+              "content": "",
+              "height": "100%",
+              "left": 0,
+              "overflow": "visible",
+              "position": "absolute",
+              "top": 0,
+              "transform": "skewY(-2.2deg)",
+              "transformOrigin": "0 0",
+              "width": "100%",
+              "zIndex": -1,
+            }
+          }
+        />
+      </div>
+      <div
+        className="floating"
+      >
+        <img
+          alt="logo"
+          className="logo-circle"
+          src="https://files-crowdcube-com.s3.amazonaws.com/files/pitch_pics/original/201708/1971b6a5097e22d314bd353d50906c0c.jpg"
+        />
+        <div
+          className="description-right"
+        >
+          <p
+            className="description-expires"
+          >
+            15 days left
+          </p>
+          <h3
+            className="title"
+          >
+            JOTO
+          </h3>
+        </div>
+      </div>
+      <div
+        className="description-container"
+      >
+        <p
+          className="description-text"
+        >
+          Joto is a robotic drawing board, which turns pixels into pen and ink. It is an award-winning product whose technology has been used by major brands such as Twitter, Google, and IBM. Following a successful Kickstarter, Joto has been featured in over 200 publications, with a reach of 900m globally.
+        </p>
+        <div
+          className="bar-container"
+        >
+          <div
+            className="bar"
+          >
+            <div
+              className="progress green"
+              style={
+                Object {
+                  "width": "75%",
+                }
+              }
+            />
+          </div>
+          <span
+            className="progress-text"
+          >
+            75%
+          </span>
+        </div>
+      </div>
+      <div
+        className="description-investment"
+      >
+        <div
+          className="investment-section"
+        >
+          <h4>
+            Raised
+          </h4>
+          <h3 />
+        </div>
+        <div
+          className="border"
+        />
+        <div
+          className="investment-section"
+        >
+          <h4>
+            Target
+          </h4>
+          <h3 />
+        </div>
+        <div
+          className="border"
+        />
+        <div
+          className="investment-section"
+        >
+          <h4>
+            Equity
+          </h4>
+          <h3>
+            9.82
+          </h3>
+        </div>
+      </div>
+    </div>
+    <div
+      className="card"
+    >
+      <div
+        className="cover-image"
+      >
+        <div
+          style={
+            Object {
+              "WebkitTransformOrigin": "0 0",
+              "backgroundImage": "linear-gradient(351deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.0) 45%), url(https://files-crowdcube-com.s3.amazonaws.com/opportunity_images/21537/201710/fa43a1d241d2d5cc1ade6477de5015b6.jpg)",
+              "backgroundSize": "cover",
+              "borderTopLeftRadius": 5,
+              "borderTopRightRadius": 5,
+              "content": "",
+              "height": "100%",
+              "left": 0,
+              "overflow": "visible",
+              "position": "absolute",
+              "top": 0,
+              "transform": "skewY(-2.2deg)",
+              "transformOrigin": "0 0",
+              "width": "100%",
+              "zIndex": -1,
+            }
+          }
+        />
+      </div>
+      <div
+        className="floating"
+      >
+        <img
+          alt="logo"
+          className="logo-circle"
+          src="https://files-crowdcube-com.s3.amazonaws.com/files/pitch_pics/original/201709/logo_fe6fc35191bf39dbff98fc68c8f01e51.jpg"
+        />
+        <div
+          className="description-right"
+        >
+          <p
+            className="description-expires"
+          >
+            14 days left
+          </p>
+          <h3
+            className="title"
+          >
+            field&flower
+          </h3>
+        </div>
+      </div>
+      <div
+        className="description-container"
+      >
+        <p
+          className="description-text"
+        >
+          Delivering grass fed, free range meat boxes to over 4,500 active subscription customers, field&flower have become a trusted retailer of ethical meat, sustainable fish & cheese. Profitable with 16/17 revenue of £2.7m, they are now looking to expand their reach and become a major online food retailer
+        </p>
+        <div
+          className="bar-container"
+        >
+          <div
+            className="bar"
+          >
+            <div
+              className="progress green"
+              style={
+                Object {
+                  "width": "100%",
+                }
+              }
+            />
+          </div>
+          <span
+            className="progress-text"
+          >
+            110%
+          </span>
+        </div>
+      </div>
+      <div
+        className="description-investment"
+      >
+        <div
+          className="investment-section"
+        >
+          <h4>
+            Raised
+          </h4>
+          <h3 />
+        </div>
+        <div
+          className="border"
+        />
+        <div
+          className="investment-section"
+        >
+          <h4>
+            Target
+          </h4>
+          <h3 />
+        </div>
+        <div
+          className="border"
+        />
+        <div
+          className="investment-section"
+        >
+          <h4>
+            Equity
+          </h4>
+          <h3>
+            7.86
+          </h3>
+        </div>
+      </div>
+    </div>
+    <div
+      className="card"
+    >
+      <div
+        className="cover-image"
+      >
+        <div
+          style={
+            Object {
+              "WebkitTransformOrigin": "0 0",
+              "backgroundImage": "linear-gradient(351deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.0) 45%), url(https://files-crowdcube-com.s3.amazonaws.com/opportunity_images/21551/201709/b8d9f69a9526e506664c308ee374dd5e.jpg)",
+              "backgroundSize": "cover",
+              "borderTopLeftRadius": 5,
+              "borderTopRightRadius": 5,
+              "content": "",
+              "height": "100%",
+              "left": 0,
+              "overflow": "visible",
+              "position": "absolute",
+              "top": 0,
+              "transform": "skewY(-2.2deg)",
+              "transformOrigin": "0 0",
+              "width": "100%",
+              "zIndex": -1,
+            }
+          }
+        />
+      </div>
+      <div
+        className="floating"
+      >
+        <img
+          alt="logo"
+          className="logo-circle"
+          src="https://files-crowdcube-com.s3.amazonaws.com/files/pitch_pics/original/201709/0546301ad021c19f97b934b64698940e.jpg"
+        />
+        <div
+          className="description-right"
+        >
+          <p
+            className="description-expires"
+          >
+            7 days left
+          </p>
+          <h3
+            className="title"
+          >
+            LightMe
+          </h3>
+        </div>
+      </div>
+      <div
+        className="description-container"
+      >
+        <p
+          className="description-text"
+        >
+          Backed by a £300K investment and ex-FTSE directors, AIR’s brand LightMe plans to take on a market worth £5B in the US and EU alone. Refined from only the finest Bio-oil, LightMe Bio-oil candles are designed to overcome the harmful nature of traditional paraffin wax and liquid wax candles.
+        </p>
+        <div
+          className="bar-container"
+        >
+          <div
+            className="bar"
+          >
+            <div
+              className="progress orange"
+              style={
+                Object {
+                  "width": "5%",
+                }
+              }
+            />
+          </div>
+          <span
+            className="progress-text"
+          >
+            5%
+          </span>
+        </div>
+      </div>
+      <div
+        className="description-investment"
+      >
+        <div
+          className="investment-section"
+        >
+          <h4>
+            Raised
+          </h4>
+          <h3 />
+        </div>
+        <div
+          className="border"
+        />
+        <div
+          className="investment-section"
+        >
+          <h4>
+            Target
+          </h4>
+          <h3 />
+        </div>
+        <div
+          className="border"
+        />
+        <div
+          className="investment-section"
+        >
+          <h4>
+            Equity
+          </h4>
+          <h3>
+            20.00
+          </h3>
+        </div>
+      </div>
+    </div>
+    <div
+      className="card"
+    >
+      <div
+        className="cover-image"
+      >
+        <div
+          style={
+            Object {
+              "WebkitTransformOrigin": "0 0",
+              "backgroundImage": "linear-gradient(351deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.0) 45%), url(https://files-crowdcube-com.s3.amazonaws.com/opportunity_images/21553/201709/5db906d7296905c778d2512029f442f6.jpg)",
+              "backgroundSize": "cover",
+              "borderTopLeftRadius": 5,
+              "borderTopRightRadius": 5,
+              "content": "",
+              "height": "100%",
+              "left": 0,
+              "overflow": "visible",
+              "position": "absolute",
+              "top": 0,
+              "transform": "skewY(-2.2deg)",
+              "transformOrigin": "0 0",
+              "width": "100%",
+              "zIndex": -1,
+            }
+          }
+        />
+      </div>
+      <div
+        className="floating"
+      >
+        <img
+          alt="logo"
+          className="logo-circle"
+          src="https://files-crowdcube-com.s3.amazonaws.com/files/pitch_pics/original/201709/cc-ss-logo_3f4131525d8d00150894943fd55123a9.jpg"
+        />
+        <div
+          className="description-right"
+        >
+          <p
+            className="description-expires"
+          >
+            35 days left
+          </p>
+          <h3
+            className="title"
+          >
+            Silversurfers
+          </h3>
+        </div>
+      </div>
+      <div
+        className="description-container"
+      >
+        <p
+          className="description-text"
+        >
+          With one of the UK’s largest online communities for the young at heart over 50's, Silversurfers has over half a million followers. The company has achieved £860k+ revenue from advertising, social media and commission-related partnerships with major brands such as Allianz and Nestle.
+        </p>
+        <div
+          className="bar-container"
+        >
+          <div
+            className="bar"
+          >
+            <div
+              className="progress orange"
+              style={
+                Object {
+                  "width": "22%",
+                }
+              }
+            />
+          </div>
+          <span
+            className="progress-text"
+          >
+            22%
+          </span>
+        </div>
+      </div>
+      <div
+        className="description-investment"
+      >
+        <div
+          className="investment-section"
+        >
+          <h4>
+            Raised
+          </h4>
+          <h3 />
+        </div>
+        <div
+          className="border"
+        />
+        <div
+          className="investment-section"
+        >
+          <h4>
+            Target
+          </h4>
+          <h3 />
+        </div>
+        <div
+          className="border"
+        />
+        <div
+          className="investment-section"
+        >
+          <h4>
+            Equity
+          </h4>
+          <h3>
+            3.61
+          </h3>
+        </div>
+      </div>
+    </div>
+    <div
+      className="card"
+    >
+      <div
+        className="cover-image"
+      >
+        <div
+          style={
+            Object {
+              "WebkitTransformOrigin": "0 0",
+              "backgroundImage": "linear-gradient(351deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.0) 45%), url(https://files-crowdcube-com.s3.amazonaws.com/opportunity_images/21561/201709/84718dd551e4663904ce0d1d3feacfc6.jpg)",
+              "backgroundSize": "cover",
+              "borderTopLeftRadius": 5,
+              "borderTopRightRadius": 5,
+              "content": "",
+              "height": "100%",
+              "left": 0,
+              "overflow": "visible",
+              "position": "absolute",
+              "top": 0,
+              "transform": "skewY(-2.2deg)",
+              "transformOrigin": "0 0",
+              "width": "100%",
+              "zIndex": -1,
+            }
+          }
+        />
+      </div>
+      <div
+        className="floating"
+      >
+        <img
+          alt="logo"
+          className="logo-circle"
+          src="https://files-crowdcube-com.s3.amazonaws.com/files/pitch_pics/original/201707/logo_crowdcube_2c24317252fffac20a102023fb2b12f3.png"
+        />
+        <div
+          className="description-right"
+        >
+          <p
+            className="description-expires"
+          >
+            14 days left
+          </p>
+          <h3
+            className="title"
+          >
+            GreenJinn
+          </h3>
+        </div>
+      </div>
+      <div
+        className="description-container"
+      >
+        <p
+          className="description-text"
+        >
+          With the aim to create the next generation of mobile couponing, GreenJinn’s free cashback app allows grocery shoppers to save money on customised product options. Launched in October 2016, the app has over 40,000 users so far saving £100+ monthly and is targeting growth among 11.5m UK Millennials.
+        </p>
+        <div
+          className="bar-container"
+        >
+          <div
+            className="bar"
+          >
+            <div
+              className="progress green"
+              style={
+                Object {
+                  "width": "62%",
+                }
+              }
+            />
+          </div>
+          <span
+            className="progress-text"
+          >
+            62%
+          </span>
+        </div>
+      </div>
+      <div
+        className="description-investment"
+      >
+        <div
+          className="investment-section"
+        >
+          <h4>
+            Raised
+          </h4>
+          <h3 />
+        </div>
+        <div
+          className="border"
+        />
+        <div
+          className="investment-section"
+        >
+          <h4>
+            Target
+          </h4>
+          <h3 />
+        </div>
+        <div
+          className="border"
+        />
+        <div
+          className="investment-section"
+        >
+          <h4>
+            Equity
+          </h4>
+          <h3>
+            9.84
+          </h3>
+        </div>
+      </div>
+    </div>
+    <div
+      className="card"
+    >
+      <div
+        className="cover-image"
+      >
+        <div
+          style={
+            Object {
+              "WebkitTransformOrigin": "0 0",
+              "backgroundImage": "linear-gradient(351deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.0) 45%), url(https://files-crowdcube-com.s3.amazonaws.com/opportunity_images/21562/201709/rsz_background_crowd_cube3_43d1343102143330164f7c7c27483564.jpg)",
+              "backgroundSize": "cover",
+              "borderTopLeftRadius": 5,
+              "borderTopRightRadius": 5,
+              "content": "",
+              "height": "100%",
+              "left": 0,
+              "overflow": "visible",
+              "position": "absolute",
+              "top": 0,
+              "transform": "skewY(-2.2deg)",
+              "transformOrigin": "0 0",
+              "width": "100%",
+              "zIndex": -1,
+            }
+          }
+        />
+      </div>
+      <div
+        className="floating"
+      >
+        <img
+          alt="logo"
+          className="logo-circle"
+          src="https://files-crowdcube-com.s3.amazonaws.com/files/pitch_pics/original/201709/logo_crowdcube_0a6f1355431b2c984eea5a6a05e7d933.png"
+        />
+        <div
+          className="description-right"
+        >
+          <p
+            className="description-expires"
+          >
+            13 days left
+          </p>
+          <h3
+            className="title"
+          >
+            I Am The Agent
+          </h3>
+        </div>
+      </div>
+      <div
+        className="description-container"
+      >
+        <p
+          className="description-text"
+        >
+          Data-driven property hub, I Am The Agent, charges property owners fixed-price online sales and rental packages, leading to average cost savings of £5.5k+ on sale fees, £1k per property let. Launched in 2011, the company has served over 150,000 clients, achieving nearly £700k revenue (-£106k EBITDA).
+        </p>
+        <div
+          className="bar-container"
+        >
+          <div
+            className="bar"
+          >
+            <div
+              className="progress orange"
+              style={
+                Object {
+                  "width": "24%",
+                }
+              }
+            />
+          </div>
+          <span
+            className="progress-text"
+          >
+            24%
+          </span>
+        </div>
+      </div>
+      <div
+        className="description-investment"
+      >
+        <div
+          className="investment-section"
+        >
+          <h4>
+            Raised
+          </h4>
+          <h3 />
+        </div>
+        <div
+          className="border"
+        />
+        <div
+          className="investment-section"
+        >
+          <h4>
+            Target
+          </h4>
+          <h3 />
+        </div>
+        <div
+          className="border"
+        />
+        <div
+          className="investment-section"
+        >
+          <h4>
+            Equity
+          </h4>
+          <h3>
+            3.25
+          </h3>
+        </div>
+      </div>
+    </div>
+    <div
+      className="card"
+    >
+      <div
+        className="cover-image"
+      >
+        <div
+          style={
+            Object {
+              "WebkitTransformOrigin": "0 0",
+              "backgroundImage": "linear-gradient(351deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.0) 45%), url(https://files-crowdcube-com.s3.amazonaws.com/opportunity_images/21571/201707/2_3bd76fcc2c69b2b87b7da30c393241fe.jpg)",
+              "backgroundSize": "cover",
+              "borderTopLeftRadius": 5,
+              "borderTopRightRadius": 5,
+              "content": "",
+              "height": "100%",
+              "left": 0,
+              "overflow": "visible",
+              "position": "absolute",
+              "top": 0,
+              "transform": "skewY(-2.2deg)",
+              "transformOrigin": "0 0",
+              "width": "100%",
+              "zIndex": -1,
+            }
+          }
+        />
+      </div>
+      <div
+        className="floating"
+      >
+        <img
+          alt="logo"
+          className="logo-circle"
+          src="https://files-crowdcube-com.s3.amazonaws.com/files/pitch_pics/original/201707/avatar_f03863e08b00db97bd9d3adf81ecea9a.jpg"
+        />
+        <div
+          className="description-right"
+        >
+          <p
+            className="description-expires"
+          >
+            8 days left
+          </p>
+          <h3
+            className="title"
+          >
+            Adanola
+          </h3>
+        </div>
+      </div>
+      <div
+        className="description-container"
+      >
+        <p
+          className="description-text"
+        >
+          Adanola is a modern, activewear brand targeted at the estimated £7bn market in the UK. Having launched in November 2015, the brand has built a customer base spanning 51 countries, a social media following of over 55,000 and has been worn by major influencers. 
+        </p>
+        <div
+          className="bar-container"
+        >
+          <div
+            className="bar"
+          >
+            <div
+              className="progress orange"
+              style={
+                Object {
+                  "width": "1%",
+                }
+              }
+            />
+          </div>
+          <span
+            className="progress-text"
+          >
+            1%
+          </span>
+        </div>
+      </div>
+      <div
+        className="description-investment"
+      >
+        <div
+          className="investment-section"
+        >
+          <h4>
+            Raised
+          </h4>
+          <h3 />
+        </div>
+        <div
+          className="border"
+        />
+        <div
+          className="investment-section"
+        >
+          <h4>
+            Target
+          </h4>
+          <h3 />
+        </div>
+        <div
+          className="border"
+        />
+        <div
+          className="investment-section"
+        >
+          <h4>
+            Equity
+          </h4>
+          <h3>
+            10.45
+          </h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,6 +1,8 @@
 import React from 'react';
 // import axios from 'axios';
 
+// import getData from '../../utils/getData;
+
 import InvestmentCard from '../../components/InvestmentCard';
 import { results } from '../../utils/data';
 
@@ -18,17 +20,31 @@ class InvestmentCardContainer extends React.Component {
   componentDidMount() {
     /*
     * Use this with an actual endpoint
-    * this.fetchData('endpoint');
+    * this.fetchData();
     */
   }
   /*
   * Use this with an actual endpoint
-  fetchData(url) {
-    axios.get(url)
-      .then(result => this.setState({ results: result.data, loading: false }))
-      .catch(error => this.setState({ error, loading: false }));
-  }
+    async fetchData() {
+      this.setState({
+        loading: true,
+      });
+
+      try {
+        const results = await getData();
+        this.setState({
+          loading: false,
+          results
+        });
+      } catch (error) {
+        this.setState({
+          error: true,
+          loading: false
+        });
+      }
+    }
   */
+
   render() {
     return (
       <div>
