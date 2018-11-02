@@ -11,24 +11,13 @@ const propTypes = {
   equity: PropTypes.string.isRequired,
   expires: PropTypes.string.isRequired,
   images: PropTypes.arrayOf(Object).isRequired,
-  updated: PropTypes.string.isRequired,
 };
 
-
 class InvestmentCard extends React.Component {
-  trimText(text) {
-    let trimmed = '';
-    let length = 300;
-    if(text.length > length){
-      trimmed = `${text.substring(0, length)}...`; 
-    } else {
-      trimmed = text;
-    }
-    return trimmed;
-  }
-
   render() {
-    const { name, description, investment, equity, expires, images } = this.props;
+    const {
+      name, description, investment, equity, expires, images,
+    } = this.props;
     // May need to do this manually for IE
     const formatter = new Intl.NumberFormat('en-GB', {
       style: 'currency',
@@ -72,7 +61,7 @@ class InvestmentCard extends React.Component {
           </div>
         </div>
         <div className='description-container'>
-          <p className='description-text'>{this.trimText(description)}</p>
+          <p className='description-text'>{description}</p>
           <ProgressBar progress={ investment.percentage } />
         </div>
         <div className='description-investment'>
@@ -97,4 +86,4 @@ class InvestmentCard extends React.Component {
 }
 
 InvestmentCard.propTypes = propTypes;
-module.exports = InvestmentCard;
+export default InvestmentCard;

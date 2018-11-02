@@ -23,4 +23,4 @@ class FilterContainer extends React.Component {
   }
 }
 
-module.exports = FilterContainer;
+export default FilterContainer;

@@ -1,20 +1,14 @@
 import React from 'react';
 // import axios from 'axios';
-import PropTypes from 'prop-types';
 
 import InvestmentCard from '../../components/InvestmentCard';
-// import FilterContainer from '../FilterContainer';
-
 import { results } from '../../utils/data';
-
-const propTypes = {
-  width: PropTypes.number.isRequired,
-};
 
 class InvestmentCardContainer extends React.Component {
   constructor() {
     super();
     this.state = {
+      // State for when fetching data
       // results,
       // error: false,
       // loading: true
@@ -37,10 +31,12 @@ class InvestmentCardContainer extends React.Component {
   */
   render() {
     return (
-      <div style={ { width: this.props.width } }>
-        {/* {loading &&
-          <div>Loading</div>
-        } */}
+      <div>
+        {/* for use when fetching data
+          * {loading &&
+            <div>Loading</div>
+          }
+        */}
         {results && results.length &&
           <div className='card-container'>
             {results.map(result =>
@@ -62,5 +58,4 @@ class InvestmentCardContainer extends React.Component {
   }
 }
 
-InvestmentCardContainer.propTypes = propTypes;
-module.exports = InvestmentCardContainer;
+export default InvestmentCardContainer;

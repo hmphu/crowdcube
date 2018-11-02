@@ -1,4 +1,7 @@
-import ReactDOM from 'react-dom';
-import App from './App';
+import React from 'react';
+import { render } from 'react-dom';
 
-ReactDOM.render(App, document.querySelectorAll('#rootElement')[0]);
+import AppContainer from './containers/AppContainer';
+import './styles/main.less';
+
+render(<AppContainer />, document.querySelectorAll('#rootElement')[0]);
